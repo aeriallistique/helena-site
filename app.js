@@ -29,18 +29,13 @@ window.addEventListener('load', ()=>{
 }
     
 })
-//window.onbeforeunload = ()=> {
- //   window.scrollTo(0, 0);
- // }
+window.onbeforeunload = ()=> {
+    window.scrollTo(0, 0);
+  }
   
 
   if (window.innerWidth <= 768) {
       document.addEventListener('scroll', (e)=>{
-         console.log(`${e.srcElement.defaultView.scrollY}px`)
           document.body.style.backgroundPosition = `0px ${e.srcElement.defaultView.scrollY}px`;
-
       })
-    //$(document).scroll(function() {
-      //  $('#background').css('background-position', '0px ' + $(document).scrollTop() + 'px');
-    //});
 }
