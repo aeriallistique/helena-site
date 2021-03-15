@@ -37,6 +37,7 @@ window.onbeforeunload = ()=> {
   if (window.innerWidth <= 768) {
       document.addEventListener('scroll', ()=>{
           document.body.style.backgroundPosition = `0 + ${document.scrollTop()}px`;
+          alert(`nothing happened`)
       })
     //$(document).scroll(function() {
       //  $('#background').css('background-position', '0px ' + $(document).scrollTop() + 'px');
