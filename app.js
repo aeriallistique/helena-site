@@ -36,8 +36,9 @@ window.addEventListener('load', ()=>{
 
   if (window.innerWidth <= 768) {
       document.addEventListener('scroll', (e)=>{
-         // console.log(e.srcElement.defaultView.scrollY)
-          document.body.style.backgroundPosition = `0 + ${e.srcElement.defaultView.scrollY}px`;
+         console.log(`${e.srcElement.defaultView.scrollY}px`)
+          document.body.style.backgroundPosition = `0px ${e.srcElement.defaultView.scrollY}px`;
+
       })
     //$(document).scroll(function() {
       //  $('#background').css('background-position', '0px ' + $(document).scrollTop() + 'px');
