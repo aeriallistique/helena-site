@@ -99,110 +99,7 @@ a{
 }
 
 
-@media only screen and (max-width: 1180px){
-    h2{
-        font-size: large;
-    }
-    .handstand_img{
-        margin-left: 3rem;
-    }
-    .what_to_expect_link{
-        margin-bottom: 0;
-    }
-    .about_header{
-        width: 100%!important;
-    }
-}
 
-@media only screen and (max-width: 900px){
-   h2{
-       font-size: medium;
-   }
-   .backbend{
-    height: 100px;
-    width: auto;
-}
-.split_jump{
-    width: auto;
-    height: 140px;
-}
-.handstand_img{
-    height: 170px;
-}
-.split_img{
-    height: 170px;
-}
-.what_to_expect_link{
-    margin-right: -4rem; 
-    margin-bottom: 1rem;
-}
-.what_to_expect_h2{
-    width: 70%;
-}
-.what_to_expect_link{
-    margin-bottom: -.5rem;
-}
-.about_header{
-    font-size: 2rem!important;
-    width: 70%!important;
-}
-
-.wtefac_header_1, .wtefac_header, .wtefac_header_2, .coaches-h2{
-    font-size: 1.5rem!important;
-}
-.faq_section h2{
-    font-size: 1.5rem!important;
-    margin-top: .2rem;
-}
-
-
-}
-
-@media only screen and (max-width: 600px){
-    .logo{
-        display: inline-block;
-        position: relative;
-        top:120px;
-        margin-bottom: 2rem; 
-    }
-    .logo img{
-        height: 200px;
-        width: 200px;
-    }
-
-    .top_div, .bottom_div{
-        flex-direction: column;
-    }
-    .what_to_expect_link{
-        margin-right: 1rem;
-    }
-    .faq_link{
-        margin-left: 0;
-    }
-    .coaches_h2{
-        margin-left: 3rem;
-    }
-    .coaches_link{
-        margin-bottom: 2rem;
-    }
-
-}
-
-@media only screen and (max-width: 480px){
-    .split_jump, .split_img{
-        height: 100px;
-        width: auto;
-    }
-    .backbend{
-        height: 80px;
-    }
-    .logo img{
-        height: 150px;
-        width: 150px;
-        margin-top: -3rem;
-        margin-bottom: 1rem;
-    }
-}
 
 /*  ------ HOVERING LINKS  */
 
@@ -371,5 +268,120 @@ box-shadow: 6px 6px 12px -4px rgba(138,130,138,0.71);
     }
     100%{
         transform: rotate(360deg);
+    }
+}
+
+/* ============== MEDIA QUERIES ============ */
+
+@media only screen and (max-width: 1180px){
+    h2{
+        font-size: large;
+    }
+    .handstand_img{
+        margin-left: 3rem;
+    }
+    .what_to_expect_link{
+        margin-bottom: 0;
+    }
+    .about_header{
+        width: 100%!important;
+    }
+}
+
+@media only screen and (max-width: 900px){
+   h2{
+       font-size: medium;
+   }
+   .backbend{
+    height: 100px;
+    width: auto;
+}
+.split_jump{
+    width: auto;
+    height: 140px;
+}
+.handstand_img{
+    height: 170px;
+}
+.split_img{
+    height: 170px;
+}
+.what_to_expect_link{
+    margin-right: -4rem; 
+    margin-bottom: 1rem;
+}
+.what_to_expect_h2{
+    width: 70%;
+}
+.what_to_expect_link{
+    margin-bottom: -.5rem;
+}
+.about_header{
+    font-size: 2rem!important;
+    width: 70%!important;
+}
+
+.wtefac_header_1, .wtefac_header, .wtefac_header_2, .coaches-h2{
+    font-size: 1.5rem!important;
+}
+.faq_section h2{
+    font-size: 1.5rem!important;
+    margin-top: .2rem;
+}
+
+
+}
+
+@media only screen and (max-width: 600px){
+    .logo{
+        display: inline-block;
+        position: relative;
+        top:120px;
+        margin-bottom: 2rem; 
+    }
+    .logo img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .top_div, .bottom_div{
+        flex-direction: column;
+    }
+    .what_to_expect_link{
+        margin-right: 1rem;
+    }
+    .faq_link{
+        margin-left: 0;
+    }
+    .coaches_h2{
+        margin-left: 3rem;
+    }
+    .coaches_link{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    .split_jump, .split_img{
+        height: 100px;
+        width: auto;
+    }
+    .backbend{
+        height: 80px;
+    }
+    .logo img{
+        height: 150px;
+        width: 150px;
+        margin-top: -3rem;
+        margin-bottom: 1rem;
+    }
+    .section{
+        width: 90%;
+        line-height: 1.7rem;
+        margin: 1rem auto;
+    }
+    .faq_section h2{
+        margin: 1.5rem auto 1rem auto;
     }
 }
