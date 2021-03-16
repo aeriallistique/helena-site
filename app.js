@@ -8,7 +8,7 @@ const elements = {
 }
 
 window.addEventListener('load', ()=>{
-    elements.logo.style.top = `${elements.top_div.clientHeight}px`;
+   
 
     let width = window.innerWidth;
         if(width > 600){
@@ -22,6 +22,7 @@ window.addEventListener('load', ()=>{
             setTimeout(()=>{elements.coaches.classList.remove('spinning-animation')},4000)
 }
         if(width <= 600){
+            elements.logo.style.top = `${elements.top_div.clientHeight + 25 }px`;
             elements.about.classList.add('spinning-animation');
             setTimeout(()=>{elements.about.classList.remove('spinning-animation')}, 1100);
             setTimeout(()=>{elements.wte.classList.add('spinning-animation')},1000);
